@@ -18,7 +18,7 @@ sleep 2
 if [ -z "$1" ]
   then
 echo "========================================================================="  
-      echo "Please provide host name to enumerate (./webenum.sh 1 or www.site.com)"
+      echo "Please provide host name to enumerate (./webenum.sh IP or www.site.com)"
 echo "========================================================================="      
       exit
 else
