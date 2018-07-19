@@ -1,25 +1,30 @@
 #!/bin/bash
 clear
-echo "" && echo ""
-echo "    ╔────────────────────────────────────────────────────────────────╗"
-echo "    |  The author does not hold any responsibility for the bad use   |"
-echo "    |  of this tool, remember that attacking targets without prior   |"
-echo "    |  consent is illegal and punished by law.                       |"
-echo "    |                                                                |"
-echo "    |      Author:vivek chauhan | Team PyramidCyber                  |"
-echo "    |        This script work with kali linux only                   |"
-echo "    |      ./webenum.sh IP or www.website .com                       |"
-echo "    |                                                                |"
-echo "    |                                                                |"
-echo "    ╠────────────────────────────────────────────────────────────────╝"
-echo "" && echo ""
-sleep 2
 
+echo "______________________________________________________________________"
+echo "______________________________________________________________________"
+echo "      The author does not hold any responsibility for the bad use     "
+echo "      of this tool, remember that attacking targets without prior     "
+echo "      consent is illegal and punished by law.  :P                     "
+echo "                                                                      "
+echo "          Author:vivek chauhan | Team PyramidCyber                    "
+echo "            This scr1t work with kali linux only                      "
+echo "                                                                      "
+echo "             Kernal Version:$(uname -r)                               "
+echo "             Machine Arch:$(uname -m)                                 "
+echo "             OS:$(uname -on)                                          "
+echo "                                                                      "
+echo "______________________________________________________________________"
+echo "______________________________________________________________________"
+
+sleep 2
+echo
+echo
 if [ -z "$1" ]
   then
-echo "========================================================================="  
-      echo "Please provide host name to enumerate (./webenum.sh IP or www.site.com)"
-echo "========================================================================="      
+echo       "================================================================================"  
+      echo "Please provide host name or ip to enumerate (./webenum.sh 1 or www.site.com)"
+echo       "================================================================================"      
       exit
 else
 echo "========================================================================"
